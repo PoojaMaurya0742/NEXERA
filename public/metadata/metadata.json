@@ -1,0 +1,11 @@
+{
+  "name": "Pooja - Hackathon Participant",
+  "description": "Nexera Verifiable Credential",
+  "image": "https://your-image-url.com/badge.png",
+  "attributes": [
+    {
+      "trait_type": "Credential Type",
+      "value": "Hackathon"
+    }
+  ]
+}
