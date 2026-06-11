@@ -2,98 +2,82 @@
 
 ### Blockchain-Powered Credential Verification Platform
 
-Nexera is a decentralized credential verification platform built on **Base Sepolia** that enables institutions to issue tamper-proof NFT-based certificates and allows anyone to instantly verify their authenticity on-chain.
+Nexera is a decentralized credential verification platform built on **Base Sepolia** that enables institutions, organizations, and event hosts to issue tamper-proof NFT-based certificates and credentials.
+
+Traditional certificates are vulnerable to forgery, loss, and manual verification delays. Nexera solves this by leveraging blockchain technology to create permanent, verifiable, and transparent digital credentials.
 
 ---
 
-## 📌 Problem Statement
+## 🌟 Problem Statement
 
-Traditional certificates suffer from several challenges:
+Educational certificates, hackathon achievements, workshop completions, and professional credentials are often:
 
-* Certificate forgery and duplication
-* Manual verification processes
-* Long verification turnaround times
-* Lack of transparency
-* Dependency on centralized databases
-* Risk of document loss or manipulation
+* Easy to forge
+* Difficult to verify
+* Dependent on centralized databases
+* Time-consuming to authenticate
 
-These issues create inefficiencies for educational institutions, employers, and certificate holders.
+Organizations spend significant resources validating credentials, while users struggle with managing and proving ownership of their achievements.
 
 ---
 
 ## 💡 Solution
 
-Nexera leverages blockchain technology to transform certificates into verifiable digital credentials.
+Nexera provides a blockchain-powered credential ecosystem where:
 
-Every credential is:
-
-* Issued on-chain
-* Linked to a unique wallet address
-* Immutable and tamper-proof
-* Instantly verifiable
-* Permanently accessible
-
-By combining NFT technology with decentralized verification, Nexera eliminates trust issues and significantly reduces verification overhead.
+* Institutions issue NFT-backed credentials
+* Users securely own credentials in their wallets
+* Anyone can instantly verify authenticity
+* Credentials remain permanently available on-chain
+* Verification happens without intermediaries
 
 ---
 
 ## ✨ Key Features
 
-### 🎓 NFT-Based Credentials
+### 🔐 Wallet Authentication
 
-Issue blockchain-backed certificates as NFTs on Base Sepolia.
+* MetaMask wallet integration
+* Secure decentralized login
+* Wallet-based identity management
 
-### 🔍 Instant Verification
+### 🎓 NFT Credential Issuance
 
-Verify credential authenticity through smart contracts without contacting the issuer.
+* Issue blockchain-backed certificates
+* Immutable credential records
+* Ownership stored on-chain
 
-### 👛 Wallet Integration
+### ✅ Credential Verification
 
-Secure MetaMask integration for credential ownership and management.
+* Instant verification of certificates
+* Blockchain-based authenticity checks
+* Fraud-resistant validation process
 
-### 🛡 Tamper-Proof Records
+### 👤 User Dashboard
 
-Credentials stored on blockchain cannot be altered or forged.
+* Profile management
+* Credential tracking
+* Verification history
 
-### 📄 Credential Dashboard
+### 🌐 Base Sepolia Integration
 
-Manage and view issued credentials through an intuitive user interface.
+* Built on Base Sepolia Testnet
+* Low-cost transactions
+* Fast verification process
 
-### ⚡ Decentralized Trust
+### 🔒 Tamper-Proof Records
 
-Verification does not rely on centralized databases or third-party validation.
+* Immutable blockchain storage
+* Transparent credential lifecycle
+* Trustless verification
 
 ---
 
-## 🏗 Architecture
-
-```text
-Institution
-      │
-      ▼
-Issue Credential
-      │
-      ▼
-Smart Contract
-      │
-      ▼
-NFT Minting
-      │
-      ▼
-Credential Holder Wallet
-      │
-      ▼
-Verification Portal
-      │
-      ▼
-On-Chain Verification
-```
-
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
-* Next.js
+* Next.js 15
 * React
 * TypeScript
 * Tailwind CSS
@@ -101,83 +85,138 @@ On-Chain Verification
 ### Blockchain
 
 * Solidity
-* Base Sepolia Testnet
+* Base Sepolia Network
 * MetaMask Wallet
 
-### Development Tools
+### Web3 Libraries
 
-* Git
-* GitHub
-* VS Code
+* Ethers.js
 
-## 🌐 Blockchain Network
+### Storage
 
-Network: Base Sepolia
-
-Purpose:
-
-* Smart Contract Deployment
-* NFT Credential Minting
-* On-Chain Verification
-
-## 🚀 How It Works
-
-### Step 1
-
-Institution creates a credential.
-
-### Step 2
-
-Credential information is submitted to the smart contract.
-
-### Step 3
-
-An NFT representing the credential is minted.
-
-### Step 4
-
-Credential holder receives ownership through their wallet.
-
-### Step 5
-
-Anyone can verify the credential through the verification portal.
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Dashboard
-* Wallet Connection
-* Credential Claim Page
-* Verification Page
-* Profile Page
-
-## 🔮 Future Scope
-
-* Multi-institution support
-* QR-based certificate verification
-* IPFS metadata storage
-* Credential revocation system
-* Employer verification dashboard
-* Cross-chain credential portability
-
-## 👩‍💻 Team
-
-### Pooja Maurya
-
-Developer & Project Creator
-
-GitHub:
-https://github.com/PoojaMaurya0742
-
-## 📂 Repository
-
-https://github.com/PoojaMaurya0742/NEXERA
-
-## 📜 License
-
-This project was developed for Tychi X HackWithMumbai 3.0 and is intended for educational and innovation purposes.
+* Local Storage (Current MVP)
+* Metadata-ready architecture
 
 ---
 
-Built with ❤️ using Blockchain, Base Sepolia and Web3 technologies.
+## 🏗️ Project Architecture
+
+```text
+User
+  │
+  ▼
+MetaMask Wallet
+  │
+  ▼
+Nexera Frontend
+  │
+  ▼
+Smart Contract
+  │
+  ▼
+Base Sepolia Blockchain
+```
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/PoojaMaurya0742/NEXERA.git
+```
+
+### Navigate to Project
+
+```bash
+cd NEXERA
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Open
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🔗 Network Details
+
+### Base Sepolia
+
+* Network: Base Sepolia
+* Chain ID: 84532
+* RPC: https://sepolia.base.org
+* Explorer: https://sepolia.basescan.org
+
+---
+
+## 🎯 Use Cases
+
+* Universities
+* Hackathons
+* Bootcamps
+* Online Courses
+* Training Programs
+* Professional Certifications
+* Community Rewards
+
+---
+
+## 🔮 Future Roadmap
+
+* IPFS Metadata Storage
+* QR-Based Verification
+* Institution Admin Panel
+* Multi-Chain Support
+* Credential Marketplace
+* Decentralized Identity Integration
+* On-Chain Reputation System
+
+---
+
+## 👥 Team
+
+### Team Leader
+
+**Pooja Maurya**
+
+* GitHub: https://github.com/PoojaMaurya0742
+* LinkedIn: https://www.linkedin.com/in/pooja-maurya-9070b52b8
+
+### Team Members
+
+**Akanksha Daphale**
+
+**Anisha Gehlot**
+
+---
+
+## 🏆 Hackathon Submission
+
+Built for:
+
+**Tychi × HackWithMumbai 3.0**
+
+Focused on creating a secure, scalable, and decentralized credential verification ecosystem powered by blockchain technology.
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+### Building Trust Through Blockchain Credentials 🚀
