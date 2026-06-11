@@ -139,8 +139,19 @@ const credentials = [
   },
 ];
 
+const {
+  isConnected,
+  address,
+  connectWallet
+} = useWallet();
+
 export default function HomePage() {
-  const { isConnected,address } = useWallet();
+  
+  const {
+  isConnected,
+  address,
+  connectWallet
+  } = useWallet();
   const router = useRouter();
 
   const [time,setTime] = useState(
@@ -358,6 +369,21 @@ export default function HomePage() {
                   <p className="text-white/60">
                     Current Time : {time}
                   </p>
+
+                  {!isConnected ? (
+                  <button
+                    onClick={connectWallet}
+                    className="mt-4 px-4 py-2 bg-[#00d4ff] text-black rounded-lg font-semibold hover:opacity-90 transition"
+                  >
+                    Connect Wallet
+                    </button>
+                  ) : (
+                    <button
+                      className="mt-4 px-4 py-2 bg-green-500 text-white rounded-lg font-semibold"
+                    >
+                      Wallet Connected
+                    </button>
+                  )}
                 </GlassCard>
               </motion.div>
               <motion.div
