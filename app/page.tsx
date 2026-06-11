@@ -139,12 +139,6 @@ const credentials = [
   },
 ];
 
-const {
-  isConnected,
-  address,
-  connectWallet
-} = useWallet();
-
 export default function HomePage() {
   
   const {
