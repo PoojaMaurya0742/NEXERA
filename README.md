@@ -203,16 +203,6 @@ http://localhost:3000
 
 ---
 
-## 🏆 Hackathon Submission
-
-Built for:
-
-**Tychi × HackWithMumbai 3.0**
-
-Focused on creating a secure, scalable, and decentralized credential verification ecosystem powered by blockchain technology.
-
----
-
 ## 📜 License
 
 MIT License
